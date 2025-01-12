@@ -57,11 +57,11 @@ def Enter(event):
     Translate()
 
 # Icon
-icon_img = PhotoImage(file="assets\logo.png")
+icon_img = PhotoImage(file="assets\\logo.png")
 root.iconphoto(0, icon_img)
 
 # Arrow Image
-arrow_img =Image.open("assets\Arrow.png")
+arrow_img =Image.open("assets\\Arrow.png")
 resize_image = arrow_img.resize((150, 70))
 final_img = ImageTk.PhotoImage(resize_image)
 #img_l1 = Label(root, image=final_img)

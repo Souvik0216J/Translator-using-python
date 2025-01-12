@@ -20,4 +20,4 @@ A Python-based language translation application built with **Tkinter** and **Goo
 
 Install dependencies:  
 ```bash  
-pip install googletrans==3.1.0a0 Pillow  
+pip install googletrans==3.1.0a0  
